@@ -5,4 +5,4 @@
 # (строка вида age1...). Приватный ключ (age-key.txt) НИКОГДА не коммить.
 creation_rules:
   - path_regex: helm/.*/secrets.*\.yaml$
-    age: age1ПЛЕЙСХОЛДЕР_ЗАМЕНИ_НА_СВОЙ_ПУБЛИЧНЫЙ_КЛЮЧ
+    age: age1pr5g055yvw9e7q7nczde5zm7phhktjr9prrf2swgnrg8q3t7myjqdzng4a

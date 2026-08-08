@@ -13,7 +13,7 @@ image:
 backend:
   name: backend
   image:
-    repository: ВАШ_ЛОГИН/todo-back
+    repository: fenix4088/todo-back
     tag: "latest"          # переопределяется в values-production.yaml (бампает CI на sha-<sha>)
   port: 3000
   replicaCount: 1          # single-node: 2 реплики сядут на ту же ноду + не влезают в 2 CPU с ArgoCD
@@ -39,7 +39,7 @@ backend:
 frontend:
   name: frontend
   image:
-    repository: ВАШ_ЛОГИН/todo-front
+    repository: fenix4088/todo-front
     tag: "latest"          # переопределяется в values-production.yaml
   port: 80
   replicaCount: 1          # single-node
@@ -68,7 +68,7 @@ appConfig:
   maxTodos: 5
 
 ingress:
-  host: ВАШ_ДОМЕН
+  host: plikap.com
   tlsSecret: app-tls
   clusterIssuer: letsencrypt-prod
 
