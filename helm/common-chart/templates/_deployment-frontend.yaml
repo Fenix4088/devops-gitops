@@ -1,7 +1,7 @@
 # Frontend (nginx со статикой React). Образ собран с зашитым VITE_API_URL=
 # https://<домен>/api. Security Context на frontend — soft (nginx капризен к read-only),
 # см. 03-gitops-extras-self-study.mdx.
-{{- define "common-chart.frontend-deployment" -}}
+{{- define "common-chart.deployment-frontend" -}}
 
 apiVersion: apps/v1
 kind: Deployment

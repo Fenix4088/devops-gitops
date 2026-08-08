@@ -1,6 +1,6 @@
 # Service backend. Имя `backend` и named port `http` — контракт: на них ссылаются
 # Ingress (/api rewrite) и ServiceMonitor. Порт 80 снаружи → 3000 в контейнере.
-{{- define "common-chart.backend-service" -}}
+{{- define "common-chart.service-backend" -}}
 apiVersion: v1
 kind: Service
 metadata:

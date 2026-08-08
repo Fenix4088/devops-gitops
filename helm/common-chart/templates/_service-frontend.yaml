@@ -1,5 +1,5 @@
 # Service frontend. Имя `frontend` — на него ссылается Ingress (catch-all путь).
-{{- define "common-chart.frontend-service" -}}
+{{- define "common-chart.service-frontend" -}}
 apiVersion: v1
 kind: Service
 metadata:

@@ -1,5 +1,5 @@
 # Backend (NestJS) — stateless Deployment. Security Context (урок 06) + пробы + runtime-конфиг.
-{{- define "common-chart.backend-deployment" -}}
+{{- define "common-chart.deployment-backend" -}}
 apiVersion: apps/v1
 kind: Deployment
 metadata:
